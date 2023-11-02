@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Inscreva sua sala! </title>
+</head>
+<style>
+
+    .texto {
+
+        text-align: center;
+        width: 1300px;
+        height: 100px;
+        color: purple;
+    }
+
+</style>
+<body>
+
+        <div class="texto">
+            <h1>Inscreva sua sala!</h1>
+            <form action="submit" method="post">
+
+            <label for="nome"> Digite seu nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="matricula"> Digite sua matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required><br>
+
+            <label for="senha"> Digite sua senha: </label>
+            <input type="password" id="senha" name="senha" required><br>
+
+            <label for="sala"> Digite o nome da sua sala: </label>
+            <input type="text" id="sala" name="sala" required><br>
+
+            <label for="assuntos"> Assuntos abordados na sua sala? </label>
+            <input type="text" id="assuntos" name="assuntos" required><br>
+
+            <label for="assuntos2"> Assuntos abordados na sua sala? </label>
+            <input type="text" id="assuntos2" name="assuntos2" required><br>
+
+            <label for="assuntos3"> Assuntos abordados na sua sala? </label>
+            <input type="text" id="assuntos3" name="assuntos3" required><br>
+
+            <a href="login.html"> Entrar </a>
+    
+
+        </div>
+    </form>
+
+</body>
+</html>
